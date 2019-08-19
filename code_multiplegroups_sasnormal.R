@@ -30,7 +30,7 @@ for(id_setting in 1:length(settings_n_k)){
   # #in some settings
   l <- length(diff.mean)
   
-  for(id_scenario in 3:length(scenarios)){
+  for(id_scenario in 1:length(scenarios)){
     scenario <- scenarios[[id_scenario]]
     power <-
       data.frame(
